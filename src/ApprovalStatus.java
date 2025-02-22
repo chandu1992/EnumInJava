@@ -28,8 +28,19 @@ public class ApprovalStatus {
 		// TODO Auto-generated method stub
 		
 		ApprovalMatrix data = ApprovalMatrix.APPROVE;
-		System.out.println(data.APPROVE.getDesc());
+		System.out.print(data.APPROVE.getDesc());
+		System.out.print("  --->  ");
 		System.out.println(data.APPROVE.getStatusCode());
+		
+		ApprovalMatrix data1 = ApprovalMatrix.REJECT;
+		System.out.print(data1.REJECT.getDesc());
+		System.out.print("  --->  ");
+		System.out.println(data1.REJECT.getStatusCode());
+		
+		ApprovalMatrix data2 = ApprovalMatrix.PENDING;
+		System.out.print(data2.PENDING.getDesc());
+		System.out.print("  --->  ");
+		System.out.print(data2.PENDING.getStatusCode());
 
 	}
 
