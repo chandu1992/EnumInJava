@@ -17,6 +17,7 @@ public class ColorRGB {
 		Color[] c = Color.values();
 		
 		for(Color cin : c) {
+			System.out.println(cin);
 			cin.info();
 		}
 	}

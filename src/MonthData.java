@@ -23,7 +23,6 @@ public class MonthData {
 		// TODO Auto-generated method stub
 		
 		System.out.println(Month.JAN);
-		
 		Month[] data = Month.values();
 		
 		for(Month d : data ) {
